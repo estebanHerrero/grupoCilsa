@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFF4EA;
+    width: 100vh;
+}
+.logo img {
+    width: 200px; 
+}
+.menuCategorias {
+    display: flex;
+    align-items: center; 
+}
+.menuCategorias ul {
+    list-style: none;
+    padding-top: 70px;
+    margin: 0;
+    display: flex;
+}
+.menuCategorias li {
+    margin: 0 10px;
+}
+.menuCategorias a {
+    text-decoration: none;
+    color: #1C1C1C; 
+}
+.menuCategorias a:hover {
+    color: #C96868;
+}
+.iconosFont {
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+}
+.iconosFont i {
+    font-size: 34px;
+    margin: 0 40px;
+    color: #1C1C1C; 
+}
+.hero {
+    background-image: url('/img/hero/portada.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content {
+    text-align: left;
+    color: #FFF4EA;
+    border: 1px solid #FFF4EA;
+    padding: 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid #FFF4EA; 
+  }
+  .hero-content h3 {
+    font-size: 1,75rem;
+    text-align: right;
+    margin-top: 30px;
+  }
+  .btn {
+    background-color: transparent; 
+    border: 1px solid #FFF4EA; 
+    color: #FFF4EA; 
+    padding: 15px;
+    width: 100%; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .btn.btn-outline-primary {
+    color: #FFF4EA;
+    border-color: #FFF4EA;
+    font-size: 2rem;
+  }
+  
+  .btn.btn-outline-primary:hover {
+    background-color: #C96868;
+    color: #FFF4EA;
+    border-color: #C96868;
+  }
+ 
