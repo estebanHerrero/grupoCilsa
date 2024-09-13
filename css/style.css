@@ -1,3 +1,7 @@
+/* index */
+body {
+    font-family: Montserrat, sans-serif;
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -12,6 +16,8 @@
 .menuCategorias {
     display: flex;
     align-items: center; 
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
 }
 .menuCategorias ul {
     list-style: none;
@@ -60,11 +66,15 @@
   .hero-content h1 {
     font-size: 2rem;
     border-bottom: 1px solid #FFF4EA; 
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
   }
   .hero-content h3 {
     font-size: 1,75rem;
     text-align: right;
     margin-top: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
   }
   .btn {
     background-color: transparent; 
@@ -77,6 +87,8 @@
     display: inline-block;
     font-size: 20px;
     margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
   }
   .btn.btn-outline-primary {
     color: #FFF4EA;
@@ -106,6 +118,8 @@
   .content-txt {
     display: flex;
     justify-content: space-between;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
   }
 .remerasCarrusel {
     display: flex;
@@ -127,6 +141,8 @@
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: 9rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
 }
 .swiper-container {
     width: 500px;
@@ -144,9 +160,16 @@
 .testimonio {
     width: 50%;
 }
+.testimonio p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
 .testimonio h5 {
     width: 80%;
     color: #C96868;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
 }
 .estrellas {
     color: #171523;
@@ -191,9 +214,14 @@ button[type="submit"] {
     border: 1px solid #FFF4EA;
     cursor: pointer;
 }
+.footer-section {
+    text-align: center;
+}
 .footer-section p {
     margin-bottom: 6px; 
     font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
 }
 .footer-section a {
     text-decoration: none;
@@ -203,6 +231,50 @@ button[type="submit"] {
     color: #C96868;
 }
 .footer-section #buenos {
-    font-size: 20px;
+    font-size: .75rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    margin-bottom: 2px;
+    color: #171523;
+    text-align: center;
+    align-items: center;
 }
+
+
+/* Camisas */
+.camisas {
+    padding-top: 50px;
+    background-color: #FFF4EA;
+    margin: 0 100px;
+}
+.camisas h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 100; /* O light */
+    font-size: 7rem;
+    margin-left: 40px;
+}
+.camisasGaleria {
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-areas:
+      "izquierda derecha";
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+  }
+  .columna-izquierda {
+    grid-area: izquierda;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .columna-derecha {
+    grid-area: derecha;
+}
+  
+  
+
  
