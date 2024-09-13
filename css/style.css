@@ -249,7 +249,7 @@ button[type="submit"] {
 }
 .camisas h1 {
     font-family: Montserrat, sans-serif;
-    font-weight: 100; /* O light */
+    font-weight: 100; 
     font-size: 7rem;
     margin-left: 40px;
 }
@@ -261,11 +261,7 @@ button[type="submit"] {
     grid-template-columns: 2fr 1fr;
     gap: 20px;
 }
-.galeria {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 20px; 
-  }
+
   .columna-izquierda {
     grid-area: izquierda;
     display: grid;
@@ -274,6 +270,41 @@ button[type="submit"] {
   .columna-derecha {
     grid-area: derecha;
 }
+.menuCategorias, a.active {
+    color: #C96868;
+}
+
+/*Pantalones */
+.pantalones {
+    padding-top: 50px;
+    background-color: #FFF4EA;
+    margin: 0 100px;
+}
+.pantalones h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 100; 
+    font-size: 7rem;
+    margin-left: 40px;
+}
+.pantalonesGaleria2 {
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-areas:
+      "derecha izquierda"
+      "derecha izquierda";
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+}
+.columna-izquierda2 {
+    grid-area: izquierda;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.columna-derecha2 {
+    grid-area: derecha;
+}
+
+
   
   
 
