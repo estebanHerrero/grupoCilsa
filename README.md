@@ -1,6 +1,6 @@
 # nomad - ecommerce | FRONT END
 
-En este proyecto se realizó un ecommerce sobre ropa masculina para desarrolladores, programadores, nómadas digitales, personas independientes que les gusta trabajar mientras recorren ciudades. Este proyecto pertenece a un curo de Desarrollo web fullstack de la ong Cilsa - 2024. Permite a los usuarios explorar y comprar productos de manera fácil e intuitiva.
+En este proyecto encontrarás un e-commerce sobre ropa masculina de marca Nomad para desarrolladores, programadores, nómadas digitales, personas independientes que les gusta trabajar mientras recorren ciudades. Pertenece a un curso de Desarrollo web fullstack de la ONG Cilsa - 2024. Permite a los usuarios explorar y comprar productos de manera fácil e intuitiva.
 
 ## Tecnologías utilizadas
 * **Frontend:** HTML, CSS, Bootstrap, JavaScript
