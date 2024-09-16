@@ -18,17 +18,24 @@ body {
     align-items: center; 
     font-family: Montserrat, sans-serif;
     font-weight: 300;
+    color: #171523;
 }
 .menuCategorias ul {
     list-style: none;
     padding-top: 70px;
     margin: 0;
     display: flex;
+    color: #171523;
 }
 .menuCategorias li {
     margin: 0 10px;
+    color: #171523;
 }
 .menuCategorias a {
+    text-decoration: none;
+    color: #171523; 
+}
+.menuCategorias p {
     text-decoration: none;
     color: #171523; 
 }
@@ -44,6 +51,12 @@ body {
     font-size: 34px;
     margin: 0 40px;
     color: #171523; 
+}
+.iconosFont a {
+    color: #171523;
+}
+.iconosFont a:hover {
+    color: #C96868;
 }
 .hero {
     background-image: url('/img/hero/portada.png');
@@ -333,12 +346,51 @@ button[type="submit"] {
     font-weight: 300;
     color: #171523;
 }
-.camisasGaleria, .columna-derecha  i {
-    margin-bottom: 200px;
+.columna-derecha p{
+    padding-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
 }
-.camisasGaleria, .columna-derecha, #color {
-    
+.columna-derecha p span {
+    font-weight: 300;
+    margin: 0 40px;
 }
+.rosa {
+    color: #f59797;
+}
+.verde {
+    color: #b2f00a;
+}
+.crema {
+    color: #fffea6;
+}
+.celeste {
+    color: #a0fff7;
+}
+.btn2 {
+    background-color: transparent; 
+    border: 1px solid #171523; 
+    color: #171523; 
+    padding: 10px;
+    width: 100%; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+  }
+  .btn2.btn-outline-primary2 {
+    font-size: 2rem;
+  }
+  .btn2.btn-outline-primary2:hover {
+    background-color: #C96868;
+    color: #FFF4EA;
+    border-color: #C96868;
+  }
+
+
 
 
 
