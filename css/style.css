@@ -451,6 +451,36 @@ button[type="submit"] {
       .footer-section img {
         margin-bottom: 4px;
       }
+
+      /* camisas */
+      .camisas {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .camisas h1 {
+        font-size: 4rem;
+      }
+      .camisasGaleria {
+        padding-bottom: 80px;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        margin: 0 20px;
+    }
+    .columna-izquierda {
+        width: 100%;
+        height: auto;
+    }
+    .columna-derecha {
+        width: 100%;
+        height: auto;
+    }
+    .menuCategorias, a.active {
+        color: #C96868;
+    }
+    .footer-info p {
+        margin-top: -5px;
+    }
 } 
 
 
