@@ -239,15 +239,7 @@ button[type="submit"] {
 .footer-section a:hover {
     color: #C96868;
 }
-.footer-section #buenos {
-    font-size: .75rem;
-    font-family: Montserrat, sans-serif;
-    font-weight: 300;
-    margin-bottom: 2px;
-    color: #171523;
-    text-align: center;
-    align-items: center;
-}
+
 
 
 /* Camisas */
@@ -327,13 +319,25 @@ button[type="submit"] {
     font-size: 6rem;
     margin-left: 40px;
 }
+.camisasGaleriaOxford {
+    display: flex;
+    margin-bottom:  40px;
+}
 .product-details {
     display: flex;
     justify-content: space-between;
 }
-
-/* The  Classic Oxford */
-.columna-derecha p {
+.columna-izquierdaOxford {
+    margin-right: 40px;
+}
+.camisasGaleriaOxford, .columna-derechaOxford {
+    display: flex;
+    padding-left: 40px;
+}
+.columna-derechaOxford {
+    padding-left: 40px;
+}
+.columna-derechaOxford p {
     color: #171523;
     font-family: Montserrat, sans-serif;
     font-size: .8rem;
@@ -378,20 +382,21 @@ button[type="submit"] {
     margin-top: 40px;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
-  }
-  .btn2.btn-outline-primary2 {
+}
+.btn2.btn-outline-primary2 {
     font-size: 2rem;
-  }
-  .btn2.btn-outline-primary2:hover {
+}
+.btn2.btn-outline-primary2:hover {
     background-color: #C96868;
     color: #FFF4EA;
     border-color: #C96868;
-  }
+}
 
 
-/* index */
+
 
 @media (max-width: 768px) {
+    /* index */
     .collapse {
         width: auto;
         height: 100vh;
@@ -411,61 +416,89 @@ button[type="submit"] {
     }
     .hero-content {
         padding: 10px 10px;
-      }
-      .hero-content h1 {
+    }
+    .hero-content h1 {
         font-size: 1.50rem;
         font-weight: 500;
-      }
-      .hero-content h3 {
+    }
+    .hero-content h3 {
         font-size: 1,5rem;
         font-weight: 500;
-      }
-      .btn {
+    }
+    .btn {
         padding: 12px;
         font-size: 1.25rem;
         font-weight: 600;
-      }
-      .testimoniosContenedor {
+    }
+    .remeras {
+        width: 280px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+    }
+    .remerasCarrusel {
+        width: 100%;
+    }
+    .remeras__texto {
+        font-size: 7rem;
+    }
+    .swiper-container {
+        width: 100%;
+        height: auto;
+        margin-left: 200px;
+        align-items: center;
+        text-align: center;
+    }
+    .testimoniosContenedor {
         flex-direction: column;
-      }
-      .testimonio {
+        width: 100%;
+    }
+    .testimonio {
         width: 100%;
         margin-bottom: 40px;
-      }
-      .foto {
+    }
+    .foto {
         width: 100%;
-      }
-      .footerContenedor {
+    }
+    .footerContenedor {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 1rem;
         height: auto;
-      }
-      .footer-section {
+    }
+    .footer-section {
         margin-bottom: 30px;
-      }
-      .footer-section p {
+    }
+    .footer-section p {
         font-size: .80rem;
-      }
-      .footer-section img {
+    }
+    .footer-section img {
         margin-bottom: 4px;
-      }
+    }
+    .footer-info p {
+        margin-top: -5px;
+    }
 
       /* camisas */
-      .camisas {
+    .camisas {
         width: 100%;
         margin: 0 auto;
-      }
-      .camisas h1 {
+    }
+    .camisas h1 {
         font-size: 4rem;
-      }
-      .camisasGaleria {
+    }
+    .camisasGaleria {
         padding-bottom: 80px;
         flex-direction: column;
         width: 100%;
         display: flex;
-        margin: 0 20px;
+        margin: 0 10px;
     }
     .columna-izquierda {
         width: 100%;
@@ -478,9 +511,31 @@ button[type="submit"] {
     .menuCategorias, a.active {
         color: #C96868;
     }
-    .footer-info p {
-        margin-top: -5px;
+    
+
+    /* pantalones */
+    .pantalones {
+        width: 100%;
+        margin: 0 auto;
     }
+   .pantalones h1 {
+        font-size: 4rem;
+   }
+   .pantalonesGaleria2 {
+        padding-bottom: 80px;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        margin: 0 10px;
+   }
+   .columna-izquierda2 {
+        width: 100%;
+        height: auto;
+   }
+   .columna-derecha2 {
+        width: 100%;
+        height: auto;
+   }
 } 
 
 
