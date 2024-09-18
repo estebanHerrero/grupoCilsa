@@ -15,12 +15,35 @@
     <title>nomad | e-commerce</title>
 </head>
 <body>
-    <header>
-        <div class="container">
+    
+    <header> 
+        <!-- 
+        <div class="navbar">
             <div class="logo">
                 <a href="index.html"><img src="img/logo/logonomad.png" alt="Logo"></a>
             </div>
-            <div class="menuCategorias">
+            <div class="navbar">
+                <div class="menuCategorias">
+                    <ul>
+                        <li>Remeras</li>
+                        <li><a href="/categorias/camisas.html">Camisas</a></li>
+                        <li><a href="/categorias/pantalones.html">Pantalones</a></li>
+                        <li>Buzos</li>
+                        <li>Zapatillas</li>
+                        <li>Mochilas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="iconosFont">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></a></i>
+                <a href=""><i class="fa-regular fa-user"></a></i>
+                <a href=""><i class="fa-regular fa-bookmark"></a></i>
+                <a href=""><i class="fa-solid fa-cart-shopping"></a></i>  
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul>
                     <li>Remeras</li>
                     <li><a href="/categorias/camisas.html">Camisas</a></li>
@@ -30,14 +53,48 @@
                     <li>Mochilas</li>
                 </ul>
             </div>
-            <div class="iconosFont">
-                <a href=""><i class="fa-solid fa-magnifying-glass"></a></i>
-                <a href=""><i class="fa-regular fa-user"></a></i>
-                <a href=""><i class="fa-regular fa-bookmark"></a></i>
-                <a href=""><i class="fa-solid fa-cart-shopping"></a></i>
+        </div>
+        -->
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid m-2">
+                <a class="navbar-brand" href="#"><img src="img/logo/logonomad.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"   id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link sinref">Remeras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/categorias/camisas.html">Camisas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/categorias/pantalones.html">Pantalones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Buzos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Zapatillas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Mochilas</a>
+                        </li>
+                    </ul>
+                    <div class="iconosFont">
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></a></i>
+                        <a href=""><i class="fa-regular fa-user"></a></i>
+                        <a href=""><i class="fa-regular fa-bookmark"></a></i>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></a></i>  
+                    </div>
+                </div>
             </div>
-        </div>             
+        </nav>
     </header>
+   
     <section class="hero">
         <div class="hero-content">
           <h1>The Bomber Jacket | Uniform</h1>
@@ -49,6 +106,7 @@
           <button type="button" class="btn btn-outline-primary">Comprar ahora</button>
         </div>
     </section>
+
     <section class="destacado">
         <div class="destacado__item">
             <img src="img/destacado/des1.png" alt="Imagen destacada 1">
@@ -65,6 +123,7 @@
             </div>
         </div>
     </section>
+
     <section class="remerasCarrusel">
         <div class="remeras">
             <h2 class="remeras__texto">Remeras</h2>
@@ -79,6 +138,7 @@
             <div class="swiper-button-next"></div>
         </div>
     </section>
+
     <section class="testimoniosContenedor">
         <div class="testimonio">
             <p >Testimonios.</p> 
@@ -96,19 +156,20 @@
             <img src="img/opiniones/opinon1.png" alt="Persona 1">
         </div>
     </section>
+
     <footer>
         <div class="footerContenedor">
-            <div class="footer-section">
+            <div class="footer-section footer-section--center">
                 <a href="index.html"><img src="img/logo/logonomad.png" alt="Logotipo"></a>
-                <p id="buenos">Buenos Aires - Argentina</p>
-                <p id="buenos">nomad  &copy; Derechos reservados.</p>
+                <p>Buenos Aires - Argentina</p>
+                <p>nomad  &copy; Derechos reservados.</p>
             </div>
-            <div class="footer-section">
+            <div class="footer-section footer-section--stacked">
                 <h3>Nosotros</h3>
                 <a href=""><p>Historia de nomas.</p></a>
                 <a href=""><p>Nomad mundo.</p></a>
             </div>
-            <div class="footer-section">
+            <div class="footer-section footer-section--stacked">
                 <h3>Categorías</h3>
                 <p>Remeras</p>
                 <a href="/categorias/camisas.html"><p>Camisas</p></a>
@@ -117,12 +178,12 @@
                 <p>Zapatillas</p>
                 <p>Mochilas</p>
             </div>
-            <div class="footer-section">
+            <div class="footer-section footer-section--stacked">
                 <h3>Redes sociales</h3>
                 <a href=""><p>Instagram</p></a>
                 <a href=""><p>Facebook</p></a>
             </div>
-            <div class="footer-section">
+            <div class="footer-section footer-section--stacked">
                 <h3>Mantenete actualizado</h3>
                 <form>
                     <input type="email" placeholder="correo@eletrónico.com">
@@ -142,6 +203,13 @@
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
+        breakpoints: {
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 1,   
+
+            },
+        }
       });
     </script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
