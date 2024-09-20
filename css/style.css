@@ -309,65 +309,62 @@ button[type="submit"] {
 
 /* Camisa Classic Oxford */
 .classicOxford {
-    padding-top: 50px;
+    padding: 50px;
     background-color: #FFF4EA;
-    margin: 0 100px;
+    margin: 0 auto;
 }
 .classicOxford h1 {
     font-family: Montserrat, sans-serif;
     font-weight: 100; 
     font-size: 6rem;
-    margin-left: 40px;
 }
 .camisasGaleriaOxford {
     display: flex;
-    margin-bottom:  40px;
-}
-.product-details {
-    display: flex;
-    justify-content: space-between;
-}
-.columna-izquierdaOxford {
-    margin-right: 40px;
-}
-.camisasGaleriaOxford, .columna-derechaOxford {
-    display: flex;
-    padding-left: 40px;
 }
 .columna-derechaOxford {
-    padding-left: 40px;
+    margin: 0 40px;
 }
 .columna-derechaOxford p {
     color: #171523;
     font-family: Montserrat, sans-serif;
     font-size: .8rem;
 } 
-.columna-derecha h6 {
+.camisasGaleriaOxford, .columna-derechaOxford h4 {
     font-family: Montserrat, sans-serif;
-    font-size: 2rem;
+    font-size: 3rem !important;
     font-weight: 300;
-    color: #171523;
 }
-.columna-derecha p{
-    padding-top: 30px;
-    font-size: 1rem;
-    font-weight: 500;
+.camisasGaleriaOxford, .columna-derechaOxford, .estrellitas {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
 }
-.columna-derecha p span {
+.columna-derechaOxford, .color p { 
+    font-size: 1.25rem !important;
     font-weight: 300;
-    margin: 0 40px;
+}
+.columna-derechaOxford, .circulos {
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+.columna-derechaOxford, .color p span {
+    margin-right: 40px;
+    padding-left: 30px;
 }
 .rosa {
     color: #f59797;
+    margin-right: 20px
 }
 .verde {
     color: #b2f00a;
+    margin-right: 20px
 }
 .crema {
     color: #fffea6;
+    margin-right: 20px
 }
 .celeste {
     color: #a0fff7;
+    margin-right: 20px
 }
 .btn2 {
     background-color: transparent; 
@@ -536,7 +533,42 @@ button[type="submit"] {
         width: 100%;
         height: auto;
    }
+   .classicOxford {
+        width: 100%;
+        margin: 0 auto;
+   }
+   .classicOxford h1{
+        font-size: 3rem;
+   }
+   .camisasGaleria {
+        width: 100%;
+        margin: 0 auto;
+   }
+
+   /* classic Oxford */
+    .classicOxford{
+        padding: 0 10px;
+    }
+    .classicOxford h1 {
+        font-size: 3rem;
+    }
+    .camisasGaleriaOxford {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0 10px;
+        display: block;
+    } 
+    .columna-derechaOxford p {
+        color: #171523;
+        font-family: Montserrat, sans-serif;
+        font-size: .8rem;
+    } 
 } 
+
+
+
+
 
 
 
